@@ -89,7 +89,7 @@ textarea {
 
 body {
   background-color: white;
-  color: rgb(65, 65, 214);
+  color: rgb(35, 35, 48);
   font-family: ;
   font-size: 1rem;
   margin: 0;
@@ -101,7 +101,9 @@ header {
   text-align: center;
   flex-flow: row wrap;
   text-transform: uppercase;
-  padding: 30px;
+  padding: 50px 30px;
+  background-color: #d5f4e6;
+  color: #000001;
 }
 
 .container {
@@ -110,7 +112,7 @@ header {
   justify-content: center;
   flex-flow: row wrap;
   margin: 30px;
-  padding: 20px;
+  padding-bottom: 40px;
 }
 
 .fish-container {
@@ -123,10 +125,15 @@ header {
 h3 {
 text-align: center;
 font-weight: bold;
+text-transform: uppercase;
+}
+
+p {
+  text-align: center;
 }
 
 button {
-  background-color: #04AA6D; /* Green */
+  background-color:  #618685;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -140,7 +147,10 @@ footer {
   display: flex;
   text-align: center;
   width: 100%;
-  padding: 40px 0 0 20;
+  padding: 20 0 0 20;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #d5f4e6;
 }
 
 @media only screen and (min-width: 1200px) { 
